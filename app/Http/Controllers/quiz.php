@@ -53,7 +53,7 @@ class quiz extends Controller
             $res->save();
         }
 
-        if($question_id==4)
+        if($question_id==11)
         {
             return redirect()->route('test_result2');
         }
